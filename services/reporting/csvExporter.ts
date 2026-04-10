@@ -1,5 +1,5 @@
 export function formatAmount(amount: number): string {
-  return amount.toString();
+  return amount.toFixed(2);
 }
 
 export function exportToCSV(transactions: { id: string; amount: number }[]): string {
